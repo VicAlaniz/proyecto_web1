@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Limpieza</title>
+    <link rel="stylesheet" href="Proyecto_web.css">
+    <link rel="shortcut icon" type="image/png" href="favicon-06-04.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+</head>
+<body>
+   
+    <header>
+    <div class="top">
+        <div class="Logo"><a href="index.html"><img src="Logo-centro-de-limpieza.png" alt="Centro de Limpieza"></a></div>
+      <div class="menu-derecho">
+          <ul class="menu-full">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Proyecto Web Centro de Limpieza-Servicios.html">Servicios</a></li> 
+            <li><a href="Proyecto Web Centro de Limpieza-QuienesSomos.html">Quienes Somos</a></li>
+            <li class="actual"><a href="Proyecto Web Centro de Limpieza-Contacto.html">Contacto</a></li>
+           
+        </ul>
+    </div> 
+    </div>
+    </header>
+    <div class="container">
+        <div class="imgPortada">
+            <div class="numero"></div>
+            <img src="imagen-portada.jpg" alt="Centro de Limpieza 1">
+        </div>
+        <div class="imgPortada">
+            <div class="numero"></div><img src="imagen-portada2.png" alt="Centro de Limpieza 2"></div>
+        <div class="imgPortada">
+            <div class="numero"></div><img src="imagen-portada3.png" alt="Centro de Limpieza 3"></div>
+        <div class="imgPortada">
+            <div class="numero"></div><img src="imagen-portada4.png" alt="Centro de Limpieza 4"></div>
+
+            <a class="anterior" onclick="navegarFoto(-1)">&#10094;</a>
+            <a class="siguiente" onclick="navegarFoto(1)">&#10095;</a>
+
+    </div>
+    <div class="info">
+        <h3>Contáctenos</h3>
+        <p>No dude en contratar los servicios profesionales de limpieza de Centro de Limpieza y así asegurarse de obtener un servicio profesional con amplia experiencia en el mercado.</p>
+    <div class="centrado" id="errores">
+
+    </div>
+    <div class="form">    
+        <form onsubmit="return validar()" name="form">
+            <label for="nom">Nombre</label>
+            <input type="text" id="nom" name="firstname" placeholder="Nombre">
+        
+            <label for="ape">Apellido</label>
+            <input type="text" id="ape" name="lastname" placeholder="Apellido">
+        
+            <label for="tel">Teléfono</label>
+            <input type="text" id="tel" name="telefono" placeholder="Teléfono">
+
+            <label for="mail">Email</label>
+            <input type="text" id="mail" name="email" placeholder="Email">
+
+            <label for="msg">Realice su consulta</label>
+            <textarea id="msg" name="consulta" placeholder="Consulta"></textarea>
+          
+            <input type="submit" name= "botonEnviar" value="Enviar">
+          </form>
+    </div>   
+    <div class="centrado">
+        <h3>Contactos:</h3>
+        <ul id="visitas">
+
+        </ul>
+    </div>   
+    </div>
+    <div class="pie-de-pagina">
+        <div class="imgPie"><img src="imagen-pie-de-pagina.jpg" alt="fondo centro"></div>
+        <div class="logoW"><a href="https://wa.me/5492664552265" target="_blank"><img src="wa.png" alt="WhatsApp"></a></div>
+        <div class="logoF"><a href="https://www.facebook.com/centrodelimpiezasl" target="_blank"><img src="face.png" alt="Facebook"></a></div>
+        <div class="logoI"><a href="https://www.instagram.com/centrodelimpiezasl" target="_blank"><img src="inst.png" alt="Instagram"></a></div>
+        <ul class="menu-pie">
+            <li class="menu2" ><a href="index.html">Inicio</a></li>
+            <li class="menu2"><a href="Proyecto Web Centro de Limpieza-Servicios.html">Servicios</a></li> 
+            <li class="menu2"><a href="Proyecto Web Centro de Limpieza-QuienesSomos.html">Quienes Somos</a></li>
+            <li class="menu2"><a href="Proyecto Web Centro de Limpieza-Contacto.html">Contacto</a></li>
+        </ul>
+        <div class="dir">Tel: 2664-552265 <br>Av. Lafinur 938 | San Luis | Argentina<br>Copyright 2021 | Todos los derechos reservados | Realizado por Vic Alaniz</div>
+        
+    </div>
+    <script type="text/javascript" src="Proyecto_web.js"></script>
+</body>
+</html>
